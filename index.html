@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/Assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spotify Clone - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- MAIN START -->
+    <div class="main">
+      <!-- SIDEBAR START -->
+      <div class="sidebar">
+        <!-- SIDEBAR HOME-SEARCH START -->
+        <div class="home-search">
+          <div class="home">
+            <img src="/Assets/home.png" alt="home-icon" class="home-icon" />
+            <h5 class="home-text">Home</h5>
+          </div>
+          <div class="search">
+            <img
+              src="/Assets/search.png"
+              alt="search-icon"
+              class="search-icon"
+            />
+            <h5 class="search-text">Search</h5>
+          </div>
+        </div>
+        <!-- SIDEBAR HOME-SEARCH END -->
+
+        <!-- SIDEBAR LIBRARY START -->
+        <div class="library">
+          <!--SIDEBAR LIBRARY HEAD START -->
+          <div class="library-head">
+            <div class="library-head-logo">
+              <div class="div1-library-icon">
+                <img
+                  src="/Assets/library_icon.png"
+                  alt="library-icon"
+                  class="library-icon"
+                />
+                <h5 class="library-text">Your Library</h5>
+              </div>
+              <div class="div2-plus-icon">
+                <img src="/Assets/plus.png" alt="plus-icon" class="plus-icon" />
+              </div>
+            </div>
+            <div class="library-head-tags">
+              <a href="#">Playlists</a>
+              <a href="#">Artists</a>
+              <a href="#">Podcasts & Shows</a>
+            </div>
+            <div class="library-head-search">
+              <div class="div1-search">
+                <img
+                  src="/Assets/search.png"
+                  alt="search-icon"
+                  class="library-search-icon"
+                />
+              </div>
+              <div class="div2-recent">
+                <h6>Recents</h6>
+                <img src="/Assets/down.png" alt="down-icon" class="down-icon" />
+              </div>
+            </div>
+          </div>
+          <!--SIDEBAR LIBRARY HEAD END -->
+
+          <!--SIDEBAR LIBRARY CARD BODY START -->
+          <div class="library-body">
+            <!-- CARD 1 START -->
+            <div class="library-card1">
+              <div class="img-con1">
+                <img src="/Assets/heart-lg.png" />
+              </div>
+              <div class="card1-text">
+                <h5>Liked Songs</h5>
+                <h6>Playlist &bull; 6 songs</h6>
+              </div>
+              <img
+                src="/Assets/speaker.png"
+                alt="speaker-icon"
+                class="speaker-icon"
+              />
+            </div>
+
+            <!-- CARD 2 START -->
+            <div class="library-cards library-card2">
+              <div class="img-con img-con2">
+                <img src="/Assets/save-instagram.png" id="saved-icon" />
+              </div>
+              <div class="card-text">
+                <h5>Your Episodes</h5>
+                <h6>Saved & downloaded episodes</h6>
+              </div>
+            </div>
+
+            <!-- CARD 3 START -->
+            <div class="library-cards library-card3">
+              <div class="img-con img-con2">
+                <img src="/Assets/Gita.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Prasad's Giat Zone</h5>
+                <h6>Podcast &bull; prasad Samantaray</h6>
+              </div>
+            </div>
+
+            <!-- CARD 4 START -->
+            <div class="library-cards library-card4">
+              <div class="img-con img-con2">
+                <img src="/Assets/Ranveer.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>The Ranveer Show</h5>
+                <h6>Podcast &bull; BeerBiceps</h6>
+              </div>
+            </div>
+
+            <!-- CARD 5 START -->
+            <div class="library-cards library-card5">
+              <div class="img-con img-con2">
+                <img src="/Assets/Arijit.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Arijit Singh</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 6 START -->
+            <div class="library-cards library-card6">
+              <div class="img-con img-con2">
+                <img src="/Assets/Anupam_Roy.jpeg" />
+              </div>
+              <div class="card-text">
+                <h5>Anupam Roy</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 7 START -->
+            <div class="library-cards library-card7">
+              <div class="img-con img-con2">
+                <img src="/Assets/Taylor_Swift.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 8 START -->
+            <div class="library-cards library-card8">
+              <div class="img-con img-con2">
+                <img src="/Assets/Taylor_Swift.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 9 START -->
+            <div class="library-cards library-card9">
+              <div class="img-con img-con2">
+                <img src="/Assets/Taylor_Swift.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 10 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="/Assets/Taylor_Swift.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 11 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="/Assets/Taylor_Swift.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 12 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="/Assets/Taylor_Swift.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 13 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="/Assets/Taylor_Swift.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 14 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="/Assets/Taylor_Swift.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 15 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="/Assets/Taylor_Swift.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+            <!-- CARD 15 END -->
+          </div>
+          <!--SIDEBAR LIBRARY CARD BODY END -->
+        </div>
+        <!-- SIDEBAR LIBRARI END -->
+      </div>
+      <!-- SIDEBAR END -->
+
+      <!-- MAIN CONTENT START -->
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img src="/Assets/backward_icon.png" />
+            <img src="/Assets/forward_icon.png" />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge">Explore Premium</button>
+            <button class="badge">Install Now</button>
+            <img src="/Assets/user.png" />
+          </div>
+        </div>
+        <div class="main-cards">
+          <!-- MAIN ROW 1 START -->
+          <div class="rows">
+            <h2>Good evening</h2>
+            <!-- GRID CARDS START -->
+            <div class="grid-cards">
+              <!-- CARD 1 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="./Assets/Tanjiro.jpeg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Tanjiro No Uta</h4>
+                  <h5>Akano</h5>
+                </div>
+              </div>
+
+              <!-- CARD 2 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="./Assets/Tanjiro.jpeg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Tanjiro No Uta</h4>
+                  <h5>Akano</h5>
+                </div>
+              </div>
+
+              <!-- CARD 3 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="./Assets/Tanjiro.jpeg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Tanjiro No Uta</h4>
+                  <h5>Akano</h5>
+                </div>
+              </div>
+
+              <!-- CARD 4 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="./Assets/Tanjiro.jpeg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Tanjiro No Uta</h4>
+                  <h5>Akano</h5>
+                </div>
+              </div>
+
+              <!-- CARD 5 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="./Assets/Tanjiro.jpeg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Tanjiro No Uta</h4>
+                  <h5>Akano</h5>
+                </div>
+              </div>
+
+              <!-- CARD 6 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="./Assets/Tanjiro.jpeg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Tanjiro No Uta</h4>
+                  <h5>Akano</h5>
+                </div>
+              </div>
+              <!-- CARD 6 END -->
+            </div>
+            <!-- GRID CARDS END -->
+          </div>
+          <!-- MAIN ROW 1 END -->
+
+          <!-- MAIN ROW 2 START -->
+          <div class="rows">
+            <div class="links">
+              <a href="#" class="link1">Your Shows</a>
+              <a href="#" class="link2">Show all</a>
+            </div>
+            <div class="flex-cards">
+              <!-- CARD 1 -->
+              <div class="card">
+                <img src="/Assets/Arijit.jpg" />
+                <h4>Hindi Mix</h4>
+                <h6>Arijit Singh</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 2 -->
+              <div class="card">
+                <img src="/Assets/Ranveer.jpg" />
+                <h4>The Ranveer Show</h4>
+                <h6>BeerBiceps</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 3 -->
+              <div class="card">
+                <img src="/Assets/anime.jpeg" />
+                <h4>Anime Songs</h4>
+                <h6>By Overlord_sam</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 4 -->
+              <div class="card">
+                <img src="/Assets/Taylor_Swift.jpg" />
+                <h4>Romantic Mix</h4>
+                <h6>Taylor Swift, Rupam Islam, Anupam Roy</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 5 -->
+              <div class="card">
+                <img src="/Assets/abby_viral.jpg" />
+                <h4>Abby Viral Mix</h4>
+                <h6>Armonian, Bucks Roy and Rubaab</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+            </div>
+          </div>
+          <!-- MAIN ROW 2 END -->
+
+          <!-- MAIN ROW 3 START -->
+          <div class="rows">
+            <div class="links">
+              <a href="#" class="link1">Recomended Artists</a>
+              <a href="#" class="link2">Show all</a>
+            </div>
+            <div class="flex-cards">
+              <!-- CARD 1 -->
+              <div class="card">
+                <img src="/Assets/artist-img/artist1.jpeg" />
+                <h4>Rupam Islam</h4>
+                <h6>
+                  Indian Bengali singer, songwriter, music composer, writer and
+                  humanist
+                </h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 2 -->
+              <div class="card">
+                <img src="/Assets/artist-img/artist2.jpeg" />
+                <h4>Atif Aslam</h4>
+                <h6>Pakistani musician, composer, and songwriter</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 3 -->
+              <div class="card">
+                <img src="/Assets/artist-img/artist3.jpeg" />
+                <h4>
+                  Indian music composer, record producer, singer, songwriter,
+                  musician, multi-instrumentalist and philanthropist
+                </h4>
+                <h6>
+                  Norwegian music producer and DJ, primarily known for his
+                  single "Faded"
+                </h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 4 -->
+              <div class="card">
+                <img src="/Assets/artist-img/artist4.jpeg" />
+                <h4>Darshan Raval</h4>
+                <h6>Indian singer, composer, and songwriter</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 5 -->
+              <div class="card">
+                <img src="/Assets/artist-img/artist5.jpeg" />
+                <h4>Allah Rakha Rahman</h4>
+                <h6>
+                  Indian music composer, record producer, singer, songwriter,
+                  musician, multi-instrumentalist and philanthropist
+                </h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+            </div>
+          </div>
+          <!-- MAIN ROW 3 END -->
+
+          <!-- MAIN ROW 4 START -->
+          <div class="rows">
+            <div class="links">
+              <a href="#" class="link1">Trendings</a>
+              <a href="#" class="link2">Show all</a>
+            </div>
+            <div class="flex-cards">
+              <!-- CARD 1 -->
+              <div class="card">
+                <img src="/Assets/card-img/card1img.jpeg" />
+                <h4>Lorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 2 -->
+              <div class="card">
+                <img src="/Assets/card-img/card2img.jpeg" />
+                <h4>Lorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 3 -->
+              <div class="card">
+                <img src="/Assets/card-img/card3img.jpeg" />
+                <h4>ALorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 4 -->
+              <div class="card">
+                <img src="/Assets/card-img/card4img.jpeg" />
+                <h4>Lorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 5 -->
+              <div class="card">
+                <img src="/Assets/card-img/card5img.jpeg" />
+                <h4>Lorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+            </div>
+          </div>
+          <!-- MAIN ROW 4 END -->
+
+          <!-- MAIN ROW 5 START -->
+          <div class="rows">
+            <div class="links">
+              <a href="#" class="link1">Lorem, ipsum.</a>
+              <a href="#" class="link2">Show all</a>
+            </div>
+            <div class="flex-cards">
+              <!-- CARD 1 -->
+              <div class="card">
+                <img src="/Assets/album-img/album-img1.jpg" />
+                <h4>Lorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 2 -->
+              <div class="card">
+                <img src="/Assets/album-img/album-img3.jpg" />
+                <h4>Lorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 3 -->
+              <div class="card">
+                <img src="/Assets/album-img/album-img4.jpeg" />
+                <h4>ALorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 4 -->
+              <div class="card">
+                <img src="/Assets/album-img/album-img5.jpeg" />
+                <h4>Lorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 5 -->
+              <div class="card">
+                <img src="/Assets/album-img/album-img6.jpeg" />
+                <h4>Lorem, ipsum</h4>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+            </div>
+          </div>
+          <!-- MAIN ROW 5 END -->
+        </div>
+        <div class="footer">
+          <div class="footer-up">
+            <div class="div1">
+              <h5>Company</h5>
+              <p>About</p>
+              <p>Jobs</p>
+              <p>For the Record</p>
+            </div>
+            <div class="div2">
+              <h5>Communities</h5>
+              <p>For Artists</p>
+              <p>Developers</p>
+              <p>Advertising</p>
+              <p>Investors</p>
+              <p>Vendors</p>
+              <p>Spotify for Work</p>
+            </div>
+            <div class="div3">
+              <h5>Useful links</h5>
+              <p>Support</p>
+              <p>Free Mobile App</p>
+            </div>
+            <div class="div4">
+              <div class="social-icon">
+                <i class="bi bi-instagram"></i>
+              </div>
+              <div class="social-icon">
+                <i class="bi bi-twitter"></i>
+              </div>
+              <div class="social-icon">
+                <i class="bi bi-facebook"></i>
+              </div>
+            </div>
+          </div>
+          <hr class="footer-divider">
+          <div class="footer-down">
+            <div>
+              <p>Legal</p>
+              <p>Privacy Center</p>
+              <p>Privacy Policy</p>
+              <p>Cookies</p>
+              <p>About Ads</p>
+              <p>Accessibility</p>
+            </div>
+            <p>&COPY; 2023 Spotify AB</p>
+          </div>
+        </div>
+      </div>
+      <!-- MAIN CONTENT END -->
+
+      <!-- MUSIC PLAYER START -->
+      <div class="music-player">
+        <!-- MUSIC PLAYER DIV1 START -->
+        <div class="music-player-div1">
+          <img
+            src="/Homework Assets/album_picture.jpeg"
+            alt="album-img"
+            class="album-img"
+          />
+          <div>
+            <h5 class="music-player-text">Daylight</h5>
+            <h6 class="music-player-text">David Kushner</h6>
+          </div>
+          <img
+            src="/Homework Assets/album_icon1.png"
+            alt="love-icon"
+            class="love-icon"
+          />
+          <img
+            src="/Homework Assets/album_icon2.png"
+            alt="picINpic-icon"
+            class="picINpic-icon"
+          />
+        </div>
+        <!-- MUSIC PLAYER DIV1 END -->
+
+        <!-- MUSIC PLAYER DIV2 START -->
+        <div class="music-player-div2">
+          <div class="song-controls">
+            <img src="/Assets/player_icon1.png" />
+            <img src="/Assets/player_icon2.png" />
+            <img src="/Assets/player_icon3.png" class="pause" />
+            <img src="/Assets/player_icon4.png" />
+            <img src="/Assets/player_icon5.png" />
+          </div>
+          <div class="song-progress">
+            <p>2:00</p>
+            <div><span></span></div>
+            <p>3:54</p>
+          </div>
+        </div>
+        <!-- MUSIC PLAYER DIV2 END -->
+
+        <!-- MUSIC PLAYER DIV3 START -->
+        <div class="music-player-div3">
+          <img
+            src="/Homework Assets/controls_icon1.png"
+            class="control-icons"
+          />
+          <img
+            src="/Homework Assets/controls_icon2.png"
+            class="control-icons"
+          />
+          <img
+            src="/Homework Assets/controls_icon3.png"
+            class="control-icons"
+          />
+          <img
+            src="/Homework Assets/controls_icon4.png"
+            class="control-icons"
+          />
+          <div class="volumn-bar"></div>
+        </div>
+        <!-- MUSIC PLAYER DIV3 END -->
+      </div>
+      <!-- MUSIC PLAYER END -->
+    </div>
+    <!-- MAIN END -->
+  </body>
+</html>
